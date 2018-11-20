@@ -1,0 +1,41 @@
+
+public class Estudiante {
+
+	public Estudiante() {
+		// TODO Auto-generated constructor stub
+	}
+
+	private String nombre;
+
+	private int id;
+
+	private double[]nota;
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public double[] getNota() {
+		return nota;
+	}
+
+	public void setNota(double[] nota) {
+		this.nota = nota;
+	}
+
+	
+	
+	
+}
