@@ -1,0 +1,9 @@
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+@WebService 
+public interface ConsultarNota {
+	@WebMethod
+	public double consultarDefinitiva(int estudiante);
+	@WebMethod
+	public double consultarNotaParcial(int estudiante, int corte);
+}
