@@ -1,0 +1,20 @@
+public class Curso implements ConsultarNota {
+
+	private Estudiante []grupo;
+	public Curso() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double consultarDefinitiva(int estudiante) {
+		
+		return 0;
+	}
+
+	@Override
+	public double consultarNotaParcial(int estudiante, int corte) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
